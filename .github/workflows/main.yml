@@ -1,40 +1,36 @@
 name: Node.js CI
 
 on:
-  workflow_dispatch:
-
-# If a new run starts while one is already going, cancel the old one first.
-# Two Node processes logging in with the SAME appstate.json at the same
-# time is a real risk (Facebook can treat it as a conflicting session and
-# cause random-looking errors on both sides) — this keeps it to one run
-# at a time.
-concurrency:
-  group: bot-runner
-  cancel-in-progress: true
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    # GitHub-hosted runners hard-cap every job at 6 hours; GitHub kills it
-    # at that point no matter what. If you want it to keep going past
-    # that, just re-run this workflow (manually, or ask to add a schedule
-    # trigger) — but only ever run the bot from ONE place (Render OR
-    # Railway OR here) at a time with a given appstate.json.
-    timeout-minutes: 360
 
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [20.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v7
+    # Step to check out the repository code
+    - uses: actions/checkout@v2
+
+    # Step to set up the specified Node.js version
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v7
+      uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm start
+
+    # Step to install dependencies
+    - name: Install dependencies
+      run: npm install
+
+    # Step to run the bot with the correct port
+    - name: Start the bot
+      env:
+        PORT: 8080
+      run: npm start
