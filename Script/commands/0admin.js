@@ -5,7 +5,7 @@ module.exports.config = {
 	name: "0admin",
 	version: "1.0.5",
 	hasPermssion: 3,
-	credits: "🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰",
+	credits: "🔰𝐒𝐀𝐃𝐈 𝐈𝐒𝐋𝐀𝐌🔰",
 	description: "Admin Config",
 	commandCategory: "Admin",
 	usages: "Admin [command] [@mention/reply/UID/link/name]",
@@ -148,7 +148,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 			const { targetID, targetName } = await getTargetUser(api, event, content, Users);
 			
 			if (!targetID) {
-				return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
+				return api.sendMessage("❌ছাদি বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
 			}
 			
 			// Check if already admin
@@ -171,7 +171,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 			const { targetID, targetName } = await getTargetUser(api, event, content, Users);
 			
 			if (!targetID) {
-				return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
+				return api.sendMessage("❌ছাদি বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
 			}
 			
 			// Check if already supporter
@@ -196,7 +196,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 			const { targetID, targetName } = await getTargetUser(api, event, content, Users);
 			
 			if (!targetID) {
-				return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
+				return api.sendMessage("❌ছাদি বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
 			}
 			
 			// Check if user is admin
@@ -220,7 +220,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 			const { targetID, targetName } = await getTargetUser(api, event, content, Users);
 			
 			if (!targetID) {
-				return api.sendMessage("❌রাহাদ বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
+				return api.sendMessage("❌ছাদি বসকে ডাক দে🫩\nকীভাবে কমান্ড ব্যবহার করতে হয় শিখায় দিবো🥴", threadID, messageID);
 			}
 			
 			// Check if user is supporter
