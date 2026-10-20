@@ -505,7 +505,7 @@ module.exports.run = async ({ event, api, args }) => {
 𝟐𝟗 - S̰A̰D̰Ḭ | s̰a̰d̰ḭ 
 𝟑𝟎 - S⃘A⃘D⃘I⃘ | s⃘a⃘d⃘i⃘
 
-উদাহরণ: !font 1 Rahat/rahat \nউদাহরণ: !font 3 rahat`;
+উদাহরণ: !font 1 Sadi/sadi \nউদাহরণ: !font 3 sadi`;
     return api.sendMessage(helpMessage, event.threadID, event.messageID);
   }
 
