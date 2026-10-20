@@ -26,8 +26,8 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "👍": "🙉👀",
     "help": "Prefix তোমার নানি কালকে দিয়ে যাবে🗿",
     "fork2": "https://github.com/Rahat-Boss/Rahat_Bot.git",
-    "pro": "😎 Nice vibe!",
-    "🙂": "kire halarput tur kopale akono gf jute nai?😂",
+    "amaya": "hop halarput tur koto boro sahos amr boss bow dike nojor des 🤬👺boss or id chande pathamu bolen sudu 💀🔥",
+    "🙂": "kire halarput tur kopale akono gf bf jute nai?😂",
     "sadi": "Bot owner😄",
     "sadi baby": "🌝💋 দুষ্টু তুমি",
     "chup": "😄চুপ কীভাবে করে🙄",
@@ -37,14 +37,14 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "i love you": "❤️ Thank you! You’re awesome",
     "by": "Bye 👋 ভালো থেকো",
     "ami Sadi": "হ্যাঁ 😄 বলো বস",
-    "tor nam ki": "My name is 🔰 Sadi Bot 🔰",
+    "tor name ki": "My name is 🔰 Sadi Bot 🔰",
     "pic de": "📸 এখন ছবি শেয়ার করতে পারছি না",
     "আমি ছাদি": "হ্যাঁ 😄 বলো কী লাগবে?",
-    "abbu sadi": "yes abbu bolo ammu ke azke shari porte bolbo?🌚🫶😋",
-    "sadi": "😄 dady sadi bol salarput 🥺👉👈",
+    "abbu sadi": "yes abbu  ammu to azke hot hoye ase akon tume asbe na ammu kase?🌚🫶😋",
+    "sadi": "✅ dady sadi bol salarput 🥺👉👈🌚",
     "love you": "❤️ love you too",
     "kire ki koros": "😄 তোমার সাথে কথা বলছি",
-    "kire bot": "হ্যাঁ বলো👀"
+    "maishu": "maishu pookie admin🎀😍💋 "
   };
 
   if (responses[msg]) {
