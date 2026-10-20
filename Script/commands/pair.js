@@ -111,7 +111,7 @@ module.exports.run = async function ({ api, event, args }) {
   const { threadID, messageID, senderID } = event;
 
   if (global.creditChanged) {
-      api.sendMessage("R̸a̸h̸a̸t̸ I̸s̸l̸a̸m̸", threadID);
+      api.sendMessage("𝘚𝘢𝘥𝘪 𝘐𝘴𝘭𝘢𝘮", threadID);
       global.creditChanged = false;
   }
 
