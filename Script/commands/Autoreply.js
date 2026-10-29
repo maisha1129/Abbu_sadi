@@ -27,7 +27,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "help": "Prefix তোমার নানি কালকে দিয়ে যাবে🗿",
     "fork2": "https://github.com/Rahat-Boss/Rahat_Bot.git",
     "amaya": "hop halarput tur koto boro sahos amr boss bow dike nojor des 🤬👺boss or id chande pathamu bolen sudu 💀🔥",
-    "🙂": "kire halarput tur kopale akono gf bf jute nai?😂",
+    "sadi xoss": "yeah xoss sadi boss 💋🎸 group mayera amr boss ke potiye nite paro amon xoss mal ar pabe na 🎀🌚",
     "sadi": "Bot owner😄",
     "sadi baby": "🌝💋 দুষ্টু তুমি",
     "chup": "😄চুপ কীভাবে করে🙄",
