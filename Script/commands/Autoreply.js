@@ -24,9 +24,9 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "miss you": "Aww 🥺 আমিও তোমাকে মিস করি!",
     "kiss de": "😄 haha, এখন না পরে কথা বলি!",
     "👍": "🙉👀",
-    "help": "Prefix তোমার নানি কালকে দিয়ে যাবে🗿",
+    "help": "Prefix তোমার নানি কালকে দিয়ে যাবে🗿boss sadi re ummah de 😤💋",
     "fork2": "https://github.com/Rahat-Boss/Rahat_Bot.git",
-    "amaya": "hop halarput tur koto boro sahos amr boss bow dike nojor des 🤬👺boss or id chande pathamu bolen sudu 💀🔥",
+    "sumona": "boss sadi wifey 🌝🎀",
     "sadi xoss": "yeah xoss sadi boss 💋🎸 group mayera amr boss ke potiye nite paro amon xoss mal ar pabe na 🎀🌚",
     "sadi": "Bot owner😄",
     "sadi baby": "🌝💋 দুষ্টু তুমি",
@@ -44,7 +44,7 @@ module.exports.handleEvent = async function ({ api, event, Users }) {
     "sadi": "✅ dady sadi bol salarput 🥺👉👈🌚",
     "love you": "❤️ love you too",
     "kire ki koros": "😄 তোমার সাথে কথা বলছি",
-    "maishu": "maishu pookie admin🎀😍💋 "
+    "maishu": "maishu adda gang pookie admin🎀😍💋 "
   };
 
   if (responses[msg]) {
